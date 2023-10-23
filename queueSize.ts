@@ -8,7 +8,6 @@ const CHURN_LIMIT_THRESHOLD3 = 786432;
 const CHURN_LIMIT_THRESHOLD4 = 1048576;
 
 const EPOCHDURATION_MINUTES = 6.4;
-const CHURN_SIZE = 4;
 
 // API Request to obtain the number of validators waiting in queue:
 async function getQueuedValidators() {
